@@ -40,7 +40,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: paudarcoo/hello-golang
+          images: paudarcoo/hello-parcel
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v5
